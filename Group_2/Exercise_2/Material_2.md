@@ -124,8 +124,8 @@ vim a.txt
 ```
 Ekkor megnyilik az editor felülete a vimnek.
 
-- Ahhoz, hogy tartalmat tudjunk begélepni a text fájlunkba, meg kell nyomnunk az `i` betűt azaz, `INSERT`.
-- Ezt követően begépelhetjük a szüvegünket, vagy módosíthatjuk azt.
+- Ahhoz, hogy tartalmat tudjunk begépelni a text fájlunkba, meg kell nyomnunk az `i` betűt azaz, `INSERT`.
+- Ezt követően begépelhetjük a szövegünket, vagy módosíthatjuk azt.
 - Ha befejeztük a módosításainkat, szövegbevitelt, akkot az `Esc` gombbal ki tudunk lépni az `INSERT` módból.
 - Írjunk egy `:` (kettőspont) karaktert, majd adjuk ki a következő parancsot a vim számára, hogy a módosításainkat mentse majd lépjen ki: `wq`. Egyben amit írni kell: `:wq`
 - A vim bezáródik és újra a terminál felületünket láthatjuk.
