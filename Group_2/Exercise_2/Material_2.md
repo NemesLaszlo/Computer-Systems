@@ -4,6 +4,17 @@ szamrend.inf.elte.hu
 
 bejelentkezés/jelszó: INF domain azonosító/jelszó
 
+Kettő opcióval kivitelezhető: Putty alkalmazás segítésgével, vagy terminálban `ssh` parancs használatával.
+
+SSH paranccsal:
+```
+ssh [infes_azonosító (kisbetűvel a neptun code)]@szamrend.inf.elte.hu
+```
+Példa:
+```
+Példa: ssh 123abc@szamrend.inf.elte.hu
+```
+
 ---
 
 ### Bevezetés
@@ -105,6 +116,27 @@ ls -l estén a kövezkező oszpolokat látjuk:
 - Modification Date and Time 
 - File/Directory Name
 
+##### Fájl létrehozása VIM (Vim is a free and open-source, screen-based text editor program) segítségével
+
+Fájl létrehozása:
+```
+vim a.txt
+```
+Ekkor megnyilik az editor felülete a vimnek.
+
+- Ahhoz, hogy tartalmat tudjunk begélepni a text fájlunkba, meg kell nyomnunk az `i` betűt azaz, `INSERT`.
+- Ezt követően begépelhetjük a szüvegünket, vagy módosíthatjuk azt.
+- Ha befejeztük a módosításainkat, szövegbevitelt, akkot az `Esc` gombbal ki tudunk lépni az `INSERT` módból.
+- Írjunk egy `:` (kettőspont) karaktert, majd adjuk ki a következő parancsot a vim számára, hogy a módosításainkat mentse majd lépjen ki: `wq`. Egyben amit írni kell: `:wq`
+- A vim bezáródik és újra a terminál felületünket láthatjuk.
+
+
+In Vim, `:wq` is a command used to save (write) the changes made to the file and then quit the editor. Here's a breakdown:
+
+- `:w` stands for "write", which saves the file.
+- `:q` stands for "quit", which closes the editor.
+
+
 ##### Mappák, másolások, mozgatások
 
 ```
@@ -123,6 +155,8 @@ cp - másolás pl. cp a.txt b.txt ('a.txt' teljes tartalmával létrejön egy 'b
 mv - mozgatás pl. mv a.txt test2 (az 'a.txt' filet átmásolja a 'test2' mappába)
 
 cat - fájl tartalmának megnézése
+
+tail - alapértelmezett esetben a fájl utolsó 10 sorát jeleníti meg, pl. tail -n 2 a.txt (az 'a.txt' fájl utolsó kettő sorát írja ki)
 
 ```
 
