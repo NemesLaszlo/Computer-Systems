@@ -1,7 +1,7 @@
 # Computer-Systems
 This repository contains the minor tasks and details of the ELTE Computer systems
 
-**Time**: 8:00 AM - 10:00 AM CEST
+**Time**: 8:15 AM - 10:00 AM CEST
 
 **Location**: D 00-411 (PC7)
 
