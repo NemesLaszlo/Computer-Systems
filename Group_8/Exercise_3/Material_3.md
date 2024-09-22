@@ -62,8 +62,11 @@ l    is multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
 és 5 másodpercenként frissíti a megjelenített információkat. Kilépni a "q" megnyomásával
 lehet.
 
+```htop``` parancs: Míg a top azokra a folyamatokra összpontosít, amelyek a legtöbb rendszererőforrást fogyasztják, 
+a htop az összes futó folyamatot mutatja. A htop szinesebb megjelenítést és "vizuális" információkat is biztosít a processzor, a csere memória és a memória állapotáról.
 
-#### Process erpforrás felhasználás:
+
+#### Process erőforrás felhasználás:
 
 ```time <parancsnév>``` parancs: Ha egy parancs elé a time kulcsszót írjuk, akkor a burok az
 indított program befejezése után statisztikai adatokat ad a feladat által használt
