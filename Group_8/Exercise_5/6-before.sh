@@ -11,6 +11,7 @@ for word in "${words[@]}"; do
 done
 
 # Print word frequencies
+# # The syntax "${!counts[@]}" retrieves all the keys in the array (associative)
 for word in "${!counts[@]}"; do
     echo "Word: $word, Frequency: ${counts["$word"]}"
 done

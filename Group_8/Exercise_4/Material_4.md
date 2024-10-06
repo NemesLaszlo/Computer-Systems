@@ -90,7 +90,7 @@ Ekkor a változó törlődik, a script további részében nem lesz definiálva.
 
 #### Neves környezetváltozók
 
-A környezetváltozók (amiket ```env`` parancssal listázhatunk) minden script számára elérhetőek
+A környezetváltozók (amiket ```env``` parancssal listázhatunk) minden script számára elérhetőek
 az indulás pillanatától. Ezek a rendszerről nyújtanak hasznos információkat: 
 
 ```

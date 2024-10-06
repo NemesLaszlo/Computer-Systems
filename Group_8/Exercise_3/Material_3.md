@@ -270,7 +270,7 @@ sudo apt install mc
 
 (grep-el (search for matching patterns in a file) "megkeressük" az alma szavakat a megadott szöveges fájlban, a '-o' kapcsolóval megadjuk, hogy csak a matching részt adjuk meg kimenetként -> Itt az alma szavak lesznek, amit pipleline-al összekötve megszámolunk)
 
-7. Csak az egészeket tartalmazó sorokat engedje át
+7. Csak az egészeket tartalmazó sorokat szürje ki és jelenítse meg egy 'numbers.txt' fájlból.
 
 - Megoldás: grep -E '^[0-9]+$' numbers.txt > filtered_file.txt
 

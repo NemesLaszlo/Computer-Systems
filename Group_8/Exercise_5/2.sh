@@ -11,4 +11,5 @@ file_name="$1"
 search_word="$2"
 
 # Grep command to find lines containing the search word in the file
+# -i -> Ignores, case for matching
 grep -i "$search_word" "$file_name"
