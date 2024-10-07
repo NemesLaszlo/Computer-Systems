@@ -7,6 +7,6 @@
 5. Írjon egy scriptet amely paramétertől függően más parancsokat futtat le.
     - ```-d``` kapcsoló esetén a date parancs kerüljön futtatásra
     - ```-w``` kapcsoló irja ki a bejelentkezett felhasználó nevét
-    - ```-l``` kapcsoló a felhaználó könyvtárának mappáját liszátta ki
+    - ```-l``` kapcsoló a felhasználó könyvtárának mappáját liszátta ki
     - ha nem megfelelő kapcsolót adunk meg szövegesen tájákoztassuk a felhasznállót
 6. Határozzuk meg, hogy egy adott hónapban melyik betegség volt a leggyakoribb, a patients.txt fájlból, az eredményt írjuk ki a terminálra.
