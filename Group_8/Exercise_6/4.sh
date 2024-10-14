@@ -11,7 +11,7 @@ even_lines_file="even_lines.txt"
 odd_lines_file="odd_lines.txt"
 
 # Initialize line number counter
-# line_number=1
+line_number=1
 
 # Read the input file line by line and sort into even and odd lines
 while IFS= read -r line; do
