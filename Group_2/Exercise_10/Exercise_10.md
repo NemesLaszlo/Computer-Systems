@@ -33,6 +33,12 @@ Unrestricted: By doing so, the execution policy will have all restrictions lifte
 
 Megvédi alapesetben a felhasználót veszélyes scriptek véletlen szerű futtatásától.
 
+Ha `Warning` üzenet látható amikor futtatnánk egy scriptet (.ps1) amelyet az internetről töltöttünk le (bizonyosodjunk meg róla futtatás előtt, hogy mit is csinál), ez esetben megoldás lehet az `R` opcióval való futtatás (Futtasd egyszer), vagy "Unblockolni a fájlt":
+
+```
+Unblock-File -Path "path_to_the_file"
+```
+
 
 #### Cmdlets and Modules
 
