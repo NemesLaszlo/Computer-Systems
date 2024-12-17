@@ -1,0 +1,13 @@
+Ez egy mondat
+Ez egy másik mondat
+Ebben a mondatban van szám: 23, de ez nem számít nekünk
+420
+Valami
+1222
+OK
+asd
+123
+asd2
+12.2
+dsa3
+-12.3

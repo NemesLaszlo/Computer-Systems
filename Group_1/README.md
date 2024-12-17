@@ -24,5 +24,5 @@ This repository contains the minor tasks and details of the ELTE Computer system
 - First ZH in the **9th week** of the semester (November 15, 2024)
 - Second ZH in the **13th week** of the semester (December 13, 2024)
 
-**Corrections of ZHs** - During the first week of the exam period (December 16 - 20, 2024) at an agreed time
+**Corrections of ZHs** - During the first week of the exam period (December 16 - 20, 2024) at an agreed time **December 17, 2024 11:00 CET**
 
